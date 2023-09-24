@@ -1,0 +1,69 @@
+.choice-btn {
+    cursor: pointer;
+    border: none;
+    margin: 15px;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px; /* Default width for large screens */
+
+    /* Center the background image vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+
+    /* Add some padding to the buttons for better spacing */
+    padding: 10px;
+}
+
+.text-center{
+    font-size: 2vw;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.choice-btn.rock {
+    background-image: url('rock.png');
+}
+
+.choice-btn.paper {
+    background-image: url('paper.png');
+}
+
+.choice-btn.scissors {
+    background-image: url('scissors.png');
+}
+
+@media (min-width: 992px) {
+    .choice-btn {
+        width: 150px; 
+        height: 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    .choice-btn {
+        width: 100px; 
+        height: 100px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .choice-btn {
+        width: 70px; 
+        height: 70px; 
+    }
+}
+
+@media (max-width: 575px) {
+    .choice-btn {
+        width: 50px; 
+        height: 50px; 
+    }
+}

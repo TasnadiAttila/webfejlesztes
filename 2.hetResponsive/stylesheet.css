@@ -1,0 +1,21 @@
+.container {
+    background-color: #d2aa54;
+}
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.mainTitle {
+    border-radius: 40%;
+    color: #e1dbcf;
+    background-color: #a39262;
+    border-color: #685e41;
+    border: 0.3vw double #655231;
+}
+
+.row{
+    padding-top: 4vw;
+}
