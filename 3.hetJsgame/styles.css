@@ -5,13 +5,9 @@
     border-radius: 20%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 150px; /* Default width for large screens */
-
-    /* Center the background image vertically and horizontally */
+    width: 150px; 
     justify-content: center;
     align-items: center;
-
-    /* Add some padding to the buttons for better spacing */
     padding: 10px;
 }
 
@@ -25,7 +21,13 @@
 }
 
 body {
-    background-color: antiquewhite;
+    -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color: rgba(5, 13, 237, 0.541);
+    background-clip: text, border-box;
+    -webkit-background-clip: text, border-box;
+    color: white;
+    background: linear-gradient(yellow, #00a4ff);
+    background-attachment: fixed;
 }
 
 .choice-btn.rock {

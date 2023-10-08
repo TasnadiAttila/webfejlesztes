@@ -1,6 +1,6 @@
-let playerWins = 0; // Counter for player wins
-let playerLosses = 0; // Counter for player losses
-let tieCount = 0; // Counter for ties
+let playerWins = 0; 
+let playerLosses = 0; 
+let tieCount = 0; 
 
 function makeChoice(playerChoice) {
     const choices = ['rock', 'paper', 'scissors'];
