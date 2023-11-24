@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: rgb(95, 95, 86);
+}
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.2rem black solid;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 25rem;
+    background-color: rgb(181, 176, 174);
+}
+
+button{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: rgb(98, 95, 94);
+    border: none;
+    border-radius: 0.3rem;
+    color: aliceblue;
+}
+h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+h2{
+    margin-top: 0;
+}

@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 138, 138);
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc; 
+    padding: 20px;
+    background-color: #474444;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 25rem;
+}
+button{
+    margin-top: 1rem;
+    width: 16rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+input{
+    background-color: rgb(215, 185, 140);
+    border-radius: 0.1rem;
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    line-height: 2em;
+}
+input::placeholder{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+}
+form input:first-of-type {
+    margin-bottom: 0.2rem;
+}
+input:focus{
+    border: 0.2rem solid rgb(201, 162, 103);
+    outline: none;
+}
+h1{
+    margin-top: 0;
+    font-size: 3rem;
+}

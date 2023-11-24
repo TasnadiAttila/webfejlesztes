@@ -12,11 +12,7 @@ if (file_exists($file_path) && is_readable($file_path)) {
             $hexString .= strtoupper($hexa);
         }
         fclose($file);
-    } else {
-        echo "Failed to open the file.";
-    }
-} else {
-    echo "File does not exist or is not readable.";
+    } 
 }
 
 $counter = 1;

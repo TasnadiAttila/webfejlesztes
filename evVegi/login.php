@@ -6,6 +6,8 @@ require 'decodePassword.php';
 $emailsAndPassowords = $emailPassword;
 $username = $_POST['username'];
 $password = $_POST['passwd'];
+$login = '';
+
 
 if (array_key_exists($username, $emailsAndPassowords)) {
     $value = $emailsAndPassowords[$username];
@@ -21,14 +23,13 @@ if (array_key_exists($username, $emailsAndPassowords)) {
                 $titkosValue = $row['Titkos'];
             }
             $query->close();
-        } else {
-            echo "A lekérdezés meghiusúlt.";
-        }
+            $login = 'siker';
+        } 
     } else {
-        echo "Hibás jelszó.";
+        $login = 'rJelszo';
     }
 } else {
-    echo "Nincs ilyen felhasználó.";
+    $login = "noUser";
 }
 $db->close();
 ?>
